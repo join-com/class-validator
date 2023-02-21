@@ -1,5 +1,5 @@
 {
-  "name": "class-validator",
+  "name": "@join-private/class-validator",
   "version": "0.14.0",
   "description": "Decorator-based property validation for classes.",
   "author": "TypeStack contributors",
