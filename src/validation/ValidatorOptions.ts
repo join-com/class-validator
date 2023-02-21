@@ -85,4 +85,9 @@ export interface ValidatorOptions {
    * When set to true, validation of the given property will stop after encountering the first error. Defaults to false.
    */
   stopAtFirstError?: boolean;
+
+  /**
+   * Some extra context object to be passed to custom validators
+   */
+  context?: Record<string, unknown>
 }

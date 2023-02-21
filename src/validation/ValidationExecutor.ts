@@ -265,6 +265,7 @@ export class ValidationExecutor {
           object: object,
           value: value,
           constraints: metadata.constraints,
+          context: this.validatorOptions?.context
         };
 
         if (!metadata.each || !(Array.isArray(value) || value instanceof Set || value instanceof Map)) {
